@@ -2,6 +2,8 @@
 
 int power(int m, int n);
 
+
+/* Prints raising i to the power j */
 main(){
 	int i, j;
 
@@ -14,6 +16,7 @@ main(){
 	return 0;
 }
 
+/* Raises base to power (4^6, 2^8, etc) */
 int power(int base, int power){
 	int i, num;
 
